@@ -1,16 +1,133 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+body{
+ margin : 0;
+  min-height: 100vh;
+  background-color: rgba(245,222,161,255);
+
+}
+.banner  {
+  background-color: rgba(251,241,213,255);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  height: 20vh;
+  overflow: hidden;
+
+
+
+}
+.raja {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+h1{
+  color:rgba(186,132,33,255);
+  font-family:'Roboto',sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.001px;
+  
+  justify-content: center;
+  display: flex;
 
-* {
-  box-sizing: border-box;
+}
+.inputbox
+{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 28px;
+  margin-bottom: 0px;
+  margin-right: 35vw;
+  margin-left: 35vw;
+  outline: 12px solid rgba(251,241,213,255);
+  background-color: white;
+  height:30vh;
+  padding : 20px;
+  border-color: rgba(251,241,213,255);
+  border-width: 10px;
+
+
+  
+
+}
+.outputbox{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 12vh;
+  margin-bottom: 5px;
+  margin-right: 35vw;
+  margin-left: 35vw;
+  background-color: rgba(231,231,231,255);
+  height:15vh;
+  padding : 20px;
+  border-color:   rgba(162,162,162,255)  ;
+  border-style: solid;
+  border-radius: 6vh;
+  overflow-y: scroll;
+  word-wrap: break-word;
+  border-width: thick;
+
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.butt {
+  margin-bottom: 10px;
+  margin-top: 15vh;
+  border: none;
+  cursor: pointer;
+  width: 20vw;
+  height: 4vh;
+  font-family:'Roboto',sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.001px;
+  color: rgba(67,100,27,255)
+  ;
+
+  
+}
+.textA{
+  width: 95%;
+  outline: none;
+ border: none;
+  
+}
+.lang
+{
+  color: red;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  font-size: large;
+}
+.bar 
+{
+background-color: rgba(112,187,160,255);
+cursor: pointer;
+width: 6vw;
+height: 4vh;
+font-family:'Roboto',sans-serif;
+font-weight: 700;
+letter-spacing: 0.001px;
+box-shadow: 3px 2px 3px 2px rgba(196,222,195,255);
+position: relative;
+left: 90vw;
+bottom:7vh;
+color:white;
+}
+.rajuoo {
+  background-color: rgba(112,187,160,255);
+cursor: pointer;
+width: 6vw;
+height: 4vh;
+font-family:'Roboto',sans-serif;
+font-weight: 700;
+letter-spacing: 0.001px;
+box-shadow: 3px 2px 3px 2px rgba(196,222,195,255);
+position: relative;
+left: 48vw;
+bottom:0vh;
 }
